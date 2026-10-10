@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Seguro</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #38bdf8;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+        h1 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.15rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #e2e8f0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a mi Sitio Web</h1>
+        <p>Construido con arquitectura estática y máxima seguridad</p>
+    </header>
+
+    <main>
+        <h2>Sitio Ultra Seguro</h2>
+        <p>Esta página web está diseñada bajo los más altos estándares de rendimiento y seguridad. Al ser un sitio estático sin bases de datos expuestas, es inmune a la gran mayoría de ataques informáticos tradicionales.</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Protegido con los estándares más altos de internet.</p>
